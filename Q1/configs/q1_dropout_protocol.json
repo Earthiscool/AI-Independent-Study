@@ -1,0 +1,34 @@
+{
+  "dataset": "Fashion-MNIST",
+  "architecture": [
+    784,
+    128,
+    64,
+    10
+  ],
+  "dropout_rates": [
+    0.0,
+    0.3
+  ],
+  "training_sizes": [
+    2000,
+    10000
+  ],
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "batch_size": 32,
+  "epochs": 10,
+  "optimizer": "SGD",
+  "learning_rate": 0.1,
+  "validation_size": 5000,
+  "primary_metric": "validation_accuracy",
+  "similar_classes": [
+    0,
+    2,
+    4,
+    6
+  ]
+}
