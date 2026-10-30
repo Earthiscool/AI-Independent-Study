@@ -1,0 +1,9 @@
+{
+  "pytorch": "2.14.0",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "torchvision": "0.29.0",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "device": "cpu"
+}
